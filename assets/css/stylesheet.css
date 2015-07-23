@@ -107,6 +107,7 @@ ul.inline li {
 	color: #fff;
 	padding: 6px 0;
 	margin-top: 3px;
+	margin-bottom: 17px;
 }
 
 .cabinetContainer .infoLine {
@@ -138,4 +139,93 @@ ul.inline li {
 
 .cabinetContainer .profileLine a {
 	color: #fff;
+}
+
+.navigation .navBlock,
+.navigation .navBanner {
+	float: left;
+}
+
+.navigation {
+	margin-bottom: 17px;
+}
+
+.navigation .navBlock {
+	width: 744px;
+}
+
+.navigation .navBanner {
+	width: 236px;
+}
+
+.navigation .navBlock .logo,
+.navigation .navBlock .qualities {
+	float: left;
+}
+
+.navigation .navBlock .logo {
+	width: 222px;
+}
+
+.navigation .navBlock .qualities {
+	width: 515px;
+}
+
+.navigation .navBlock .logo .slogan {
+	font-size: 12px;
+}
+
+.navigation .navBlock .qualities .quality a {
+	color: #474747;
+	line-height: 100%;
+}
+
+.navigation .navBlock .qualities .quality a:hover {
+	text-decoration: none;
+}
+
+.navigation .navBlock .qualities .quality .icon,
+.navigation .navBlock .qualities .quality .text {
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+.navigation .navBlock .qualities .quality .text {
+	font-size: 13px;
+}
+
+.mainBanner {
+	margin-bottom: 10px;
+}
+
+.mainBanner img {
+	border: 1px solid #bdbebc;
+	border-radius: 13px;
+}
+
+.categoryFilter ul li {
+	font-size: 12px;
+}
+
+.categoryFilter ul li a {
+	color: #474747;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.categoryFilter ul li a span {
+	color: #474747;
+	padding-bottom: 2px;
+	text-decoration: none;
+	border-bottom: 1px dashed #474747;
+}
+
+.categoryFilter ul li a:hover span {
+	border-bottom-color: transparent;
+}
+
+.categoryFilter ul li.active {
+	background-color: #ffc700;
+	padding: 8px 9px;
+	border-radius: 10px;
 }
