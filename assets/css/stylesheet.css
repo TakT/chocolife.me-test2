@@ -203,8 +203,14 @@ ul.inline li {
 	border-radius: 13px;
 }
 
+.categoryFilter ul {
+	display: table;
+}
+
 .categoryFilter ul li {
 	font-size: 12px;
+	display: table-cell;
+	width: 1%;
 }
 
 .categoryFilter ul li a {
@@ -224,7 +230,7 @@ ul.inline li {
 	border-bottom-color: transparent;
 }
 
-.categoryFilter ul li.active {
+.categoryFilter ul li.active a {
 	background-color: #ffc700;
 	padding: 8px 9px;
 	border-radius: 10px;
