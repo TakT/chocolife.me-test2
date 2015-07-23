@@ -39,7 +39,7 @@ ul {
     margin: 3px 0;
 }
 
-#header .logo {
+.logo {
     width: 218px;
     float: left;
 	padding: 10px 0;
@@ -47,37 +47,42 @@ ul {
     border-right: 1px solid #323232;
 }
 
-#header .logoText {
+.logoText {
 	vertical-align: super;
 }
 
-#header .otherProjects {
+.otherProjects {
     width: 762px;
     float: left;
     padding-top: 7px;
 }
 
-#header .otherProjects ul {
+.otherProjects ul {
 	list-style: none;
 }
 
-#header .otherProjects ul li.project {
+.otherProjects ul li.project {
 	display: inline-block;
+	width: 120px;
 	min-height: 32px;
-	margin: 0 19px;
+	margin: 0 5px;
 	line-height: 100%;
+	text-align: center;
 	vertical-align: top;
 }
 
-#header .otherProjects ul li.project .projectText {
-	font-size: 12px;
-	text-align: center;
+.otherProjects ul li.project:first-child {
+	margin-left: 15px;
 }
 
-#header .otherProjects ul li.project:hover .projectText {
+.otherProjects ul li.project .projectText {
+	font-size: 12px;
+}
+
+.otherProjects ul li.project:hover .projectText {
 	display: none;
 }
 
-#header .otherProjects ul li.project:hover .projectLogo {
-	
+.otherProjects ul li.project:hover .projectLogo img {
+	width: 100%;
 }
